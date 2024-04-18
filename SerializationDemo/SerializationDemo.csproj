@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Teacher\TeacherNameSpace.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="BinaryFormatter" Version="3.0.0" />
+    <PackageReference Include="SoapFormatter" Version="1.1.9" />
+  </ItemGroup>
+</Project>
